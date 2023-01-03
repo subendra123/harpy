@@ -1,0 +1,96 @@
+.header-banner {
+    background: var(--text);
+    color: var(--canvas);
+    padding: 5px 10px;
+    height: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-in {
+        padding: 0 20px;
+    }
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited,
+.navbar a:active {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--textMuted);
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+}
+
+.mobile-nav {
+    width: 100%;
+    background: var(--bg);
+    border-top: 1px solid var(--dividerTrans);
+    padding: 5px 10px;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 300ms ease-in-out;
+}
+
+.mobile-nav.show {
+    max-height: 40px;
+    visibility: visible;
+    transition: all 300ms ease-in-out;
+}
+
+.mobile-nav a,
+.mobile-nav a:link,
+.mobile-nav a:visited,
+.mobile-nav a:active {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--textMuted);
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+}
+
+
+.nav-right a,
+.nav-right a:link,
+.nav-right a:visited,
+.nav-right a:active {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--textMuted);
+    font-size: large;
+}
+
+.navbar a:hover,
+.mobile-nav a:hover,
+.nav-right a:hover {
+    background: var(--accentAlpha);
+    color: var(--accent);
+    border-radius: var(--radius);
+}
+
+.header {
+    background: var(--bg);
+    height: 72px;
+    position: sticky;
+}
+
+.app-icon-up {
+    position: relative;
+    top: -36px;
+    background: var(--bg);
+    z-index: 10;
+    padding: 10px;
+}
+
+.header .header-content {
+    top: -48px;
+    position: relative;
+}

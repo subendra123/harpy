@@ -1,0 +1,26 @@
+.quick-links a,
+.quick-links a:link,
+.quick-links a:visited,
+.quick-links a:active {
+    text-decoration: none;
+    color: var(--textMuted);
+    display: block;
+    padding: 5px 0;
+    font-size: small;
+}
+
+footer {
+    margin-top: 40px;
+    background: var(--canvas);
+}
+
+.footer {
+    border-top: 1px solid var(--divider);
+}
+
+.footer-banner {
+    background: var(--text);
+    margin-top: 20px;
+    color: var(--canvas);
+    padding: 5px 0;
+}
